@@ -11,9 +11,34 @@ body {
 .select-box {
     position: absolute;
     top: 50%;
-    left:50%;
-    transform: translate(-50, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     background: #ffff;
-    padding: 20px 25px 25px;
+    padding: 20px 20px 25px;
     border-radius: 5px;
+}
+
+.select-box header {
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #554994;
+    color: #554994;
+    font-weight: 500;
+}
+
+.select-box .title {
+    font-size: 20px;
+    padding: 10px 0px;
+    color: #554994;
+}
+
+.select-box .options {
+    display: flex;
+    width: 100%;
+}
+
+.options button {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500px;
 }
