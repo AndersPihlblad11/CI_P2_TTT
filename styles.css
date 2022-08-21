@@ -5,7 +5,10 @@
 }
 
 body {
-   background: hotpink; 
+   background: url(images/candy-wallpaper.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+
 }
 
 .select-box {
@@ -39,6 +42,30 @@ body {
 
 .options button {
     width: 100%;
+    padding: 8px 0;
+    border: none;
+    outline: none;
+    background: #554994;
+    border-radius: 5px;
+    color: #ffff;
+    cursor: pointer;
     font-size: 18px;
-    font-weight: 500px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+}
+
+.options button:hover {
+    transform: scale(0.96);
+    color: #554994;
+    background: #ffff;
+    border: 1px solid #554994;
+}
+
+.option button.cupcake {
+    margin-right: 6px;
+}
+
+.option button.lolipop {
+    margin-left : 6px;
 }
