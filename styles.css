@@ -19,6 +19,9 @@ body {
     background: #ffff;
     padding: 20px 20px 25px;
     border-radius: 5px;
+    max-width: 300px;
+    width: 100%;
+    display: none;
 }
 
 .select-box header {
@@ -66,6 +69,6 @@ body {
     margin-right: 6px;
 }
 
-.option button.lolipop {
+.option button.lollipop {
     margin-left : 6px;
 }
