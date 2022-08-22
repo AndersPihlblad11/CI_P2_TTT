@@ -79,6 +79,9 @@ body {
     margin-left : 6px;
 }
 
+.play-board {
+    display: none;
+}
 .play-board .details {
     background-color: #ffff;
     border-radius: 5px;
