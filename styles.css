@@ -86,6 +86,24 @@ body {
     font-size: large;
 }
 
+.play-board .details .players {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.player-board .details span {
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px 0;
+    cursor: default;
+    text-align: center;
+}
+
+.play-board .play-area {
+    margin-top: 20px;
+}
+
 .play-board section {
     display: flex;
 }
