@@ -86,13 +86,18 @@ body {
     font-size: large;
 }
 
+.details span.active {
+    color: #ffff;
+    background: #554994;
+}
+
 .play-board .details .players {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-.player-board .details span {
+.play-board .details span {
     width: 100%;
     border-radius: 5px;
     padding: 7px 0;
@@ -115,4 +120,8 @@ body {
     width: 80px;
     background: #ffff;
     border-radius: 5px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+    color: #554994;
 }
