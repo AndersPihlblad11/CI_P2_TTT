@@ -11,7 +11,7 @@ body {
 
 }
 
-.section-box, .play-board {
+.section-box, .play-board, .result-box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -140,4 +140,42 @@ body {
     text-align: center;
     line-height: 80px;
     color: #554994;
+}
+
+.result-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.result-box .won-text {
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.result-box .won-text p {
+    font-weight: 600;
+    margin: 0 3px;
+}
+
+.result-box .btn {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.result-box .btn button {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    outline: none;
+    background: #554994;
+    border-radius: 5px;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
